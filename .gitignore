@@ -1,0 +1,15 @@
+# virtual environment and Python caches
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# downloaded/generated data (rebuilt by prepare_data.py + train_tokenizer.py)
+data/
+
+# checkpoints (tens to hundreds of MB each)
+runs/
+*.pt
+
+# local logs
+*.log

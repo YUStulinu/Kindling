@@ -1,0 +1,6 @@
+# Install PyTorch separately, with the CUDA build that matches your GPU (see README):
+#   pip install torch --index-url https://download.pytorch.org/whl/cu128
+torch>=2.9
+numpy>=2.0
+matplotlib>=3.9
+pytest>=8.0
